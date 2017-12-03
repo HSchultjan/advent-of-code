@@ -23,12 +23,11 @@ extension Array where Element == Int {
 struct Solver {
     let pairingStrategy: PairingStrategy
 
-    func result(for input:String) -> Int {
+    func result(for input: String) -> Int {
         return input.digitArray.pairs(paringStategy: pairingStrategy).reduce(0) {
             return $0 + (($1.0 == $1.1) ? $1.0 : 0)
         }
     }
-
 }
 
 // Example: Part 1
