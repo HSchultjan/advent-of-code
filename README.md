@@ -3,11 +3,7 @@ This repository contains my solutions to the Advent of Code 2017 in Swift playgr
 
 Days
 [x] Day 1 (refactored)
-  [x] Part 1
-  [x] Part 2
 [ ] Day 2
 [ ] Day 3
 [ ] Day 4
 [x] Day 5
-  [x] Part 1
-  [x] Part 2
